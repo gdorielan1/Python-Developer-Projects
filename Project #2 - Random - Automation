@@ -1,0 +1,18 @@
+#If you are looking for the next vacation-getaway and you cannot decide.
+
+#Allow the random automation generator to decide for you in seconds.
+
+#These few lines of code create a program that can single-handedly eliminate indecision. 
+
+from random import choice
+
+#Create a list of vacation-getaways:
+
+places = ['Australia', 'Cancun', 'Cuba', 'London', 'California', 'Brazil', 'Jamaica', 'Dominican Republic', \
+         'Puerto Rico', 'Germany', 'Las Vegas', 'Netherlands', 'Boston', 'Bahamas', 'Spain', 'Dubai', 'Portugal', \
+         'Greenland', 'Morocco', 'Paris', 'Italy', 'Canada', 'Hawai', 'Israel', 'Costa Rica', 'Egypt', 'Tulum', \
+         'Bermuda', 'Colombia', 'Aruba', 'Curacao', 'St. Lucia']
+
+#Print a random location from the list of getaways:
+
+print(choice(places))
