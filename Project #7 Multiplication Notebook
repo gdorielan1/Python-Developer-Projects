@@ -1,0 +1,19 @@
+print("MATHEMATICAL WORKBOOK")
+
+import random
+
+
+while True:
+    a = random.randint(0,100)
+    b = random.randint(0,100)
+
+    print("Q: " + str(a) + "*" + str(b) + " ?")
+    answer = (input("A: "))
+    
+    if answer == (a*b):
+        print("Correct")
+    else:
+        print("Incorrect. Answer is " + str(a*b))
+        
+    if answer == "q":
+        break
