@@ -13,7 +13,7 @@ while True:
     if answer == (a*b):
         print("Correct")
     else:
-        print("Incorrect. Answer is " + str(a*b))
+        print("Answer = " + str(a*b))
         
     if answer == "q":
         break
